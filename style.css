@@ -58,3 +58,15 @@ ul{
 #adida{
     
 }
+#r, #t, #y{
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+    width: 15vw;
+    height: 20vh; background-image: url(./Group\ 4.png);
+    text-align: center;
+}
+
+
+
+
