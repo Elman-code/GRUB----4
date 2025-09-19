@@ -9,13 +9,42 @@ body{
     background-size: cover;
 }
 #first{
-
+/* display: flex;
+justify-content: space-between;
+align-items: baseline; */
 }
 li{
     list-style-type: none;
+    font-weight: bolder;
+    font-style: oblique;
+}
+li:hover{
+    cursor: pointer;
 }
 #ilkp{
     width: 40vw;
+}
+#womens{
+position: relative;
+}
+.weniki{
+    position: absolute;
+    display: none;
+}
+#womens:hover .weniki{
+    display: block;
+    background-color: black;
+    color: white;
+    height: 30vh;
+    width: 10vw;
+    overflow-y: auto;
+}
+#but{
+    
+}
+#adidas{
+    display: inline;
+    
 }
 #ilkhbir{
 font-weight: 900;
@@ -53,7 +82,8 @@ cursor: pointer;
 }
 ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: baseline;
 }
 #adida{
     
